@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making Resposive</title>
+    <style>
+        .container {
+            display: flex;
+            max-width: 1200px;
+            flex-direction: row;
+            margin: 0 auto;
+        }
+        .food {
+            border: 3px solid gray;
+            border-radius: 30px;
+            width: 200px;
+            margin: 10px;
+        }
+        .food img {
+            width: 100%;
+        }
+        @media (max-width : 760px) {
+            .container {
+                flex-direction: column;
+            }
+            .container .food{
+                background-color: rosybrown;
+            }
+        }
+        @media (min-width : 1200px) {
+            .container .food{
+                background-color: skyblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="food.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, nesciunt. Eos odit dolorum ut. Pariatur nam ut unde fugiat deserunt fuga itaque numquam minus soluta fugit vitae officiis accusamus natus, veritatis cum, quisquam ducimus voluptate maxime dolore autem incidunt magnam?</p>
+        </div>
+        <div class="food">
+            <img src="food.jpeg" alt="">
+            <p>Ipsam deleniti illo delectus vitae praesentium ab minima dicta odio nam, in impedit aliquid aliquam doloremque nemo. Obcaecati odit nostrum error earum ipsa doloribus, blanditiis suscipit, commodi neque alias recusandae dolore ad ullam pariatur, fuga autem dolorem nesciunt consectetur assumenda.</p>
+        </div>
+        <div class="food">
+            <img src="food.jpeg" alt="">
+            <p>Totam, optio illo vero illum, reprehenderit voluptas quod hic eaque incidunt nisi nulla doloremque corporis, numquam minus. Totam, rerum. Vitae autem accusantium pariatur! Error modi, nam exercitationem quibusdam quos ducimus, porro neque saepe velit fugiat cum! Est autem velit sequi.</p>
+        </div>
+        <div class="food">
+            <img src="food.jpeg" alt="">
+            <p>Ducimus asperiores necessitatibus omnis quaerat, maiores aperiam delectus sapiente iusto laudantium nemo consequatur iure cum ipsam! Modi natus reiciendis, at, odit quos minus vel architecto ea ullam eius ut autem excepturi nesciunt fugit. Tempore numquam quisquam, debitis velit beatae rerum?</p>
+        </div>
+        <div class="food">
+            <img src="food.jpeg" alt="">
+            <p>Quasi laboriosam necessitatibus praesentium maiores ducimus rem numquam delectus libero asperiores suscipit repudiandae impedit, consectetur ad voluptatum perferendis minima culpa eius blanditiis qui quaerat laborum dolores repellendus alias distinctio. Aliquid veritatis iusto vel asperiores iure, unde expedita illo ex maxime!</p>
+        </div>
+        <div class="food">
+            <img src="food.jpeg" alt="">
+            <p>Laudantium odit, est natus quia animi perferendis! Perferendis iusto accusamus velit voluptates quam possimus. Sit dicta dolor id cum vitae? Porro maiores omnis culpa, tempora laboriosam consectetur corrupti eum quia assumenda exercitationem dolor, tenetur magni qui fugiat perferendis similique temporibus.</p>
+        </div>
+    </div>
+</body>
+</html>
